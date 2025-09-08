@@ -10,7 +10,7 @@ int main(){
 	cout << "before" << num << endl;
 	chngeValue(&num);
 	
-	cout << "after" << num << endl;
+	cout << "after of num (&num)" << &num << endl;
 	
 	return 0;	
 	}
