@@ -1,0 +1,13 @@
+1. what is big-o notation?
+  - runtime compared to the input
+  - when input grows in size, the runtime grows in size, big-o shows the growth rate of that.
+
+2. real life example
+  - going through instagram followers. too many usernames, longer time needed to go through them all to find your friends. 
+  - (yes this is a real problem, it took me a while to go through my following and get rid of bots/fake accounts)
+
+3. Why vector and not array?
+  - vectors resize and have built in commands. due to its automatic sizing, the memory management is easy. 
+  - arrays are fixed. the memory management is difficult since it allocates the sizing before hand. 
+  - like the menu, we added and removed menu items. if it was an array, we would not have been able to mopve or remove any of the items
+  - or the student ids! what if new students were added? 
